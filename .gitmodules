@@ -1,0 +1,3 @@
+[submodule "lubancat_sg2000_application_code"]
+	path = lubancat_sg2000_application_code
+	url = https://gitee.com/LubanCat/lubancat_sg2000_application_code.git
