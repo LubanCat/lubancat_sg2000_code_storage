@@ -12,14 +12,14 @@ int main(int argc, char **argv)
     struct gpiod_line * line;      //GPIO引脚句柄
 
     /*获取GPIO控制器*/
-    chip = gpiod_chip_open("/dev/gpiochip1");
+    chip = gpiod_chip_open("/dev/gpiochip0");
     if(chip == NULL){
         printf("gpiod_chip_open error\n");
         return -1;
     }
 
     /*获取GPIO引脚*/
-    line = gpiod_chip_get_line(chip, 4);
+    line = gpiod_chip_get_line(chip, 6);
     if(line == NULL){
         printf("gpiod_chip_get_line error\n");
         goto release_line;

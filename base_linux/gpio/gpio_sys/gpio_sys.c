@@ -4,7 +4,6 @@
 #include <fcntl.h>
 #include <stdio.h>
 
-#define GPIO_INDEX "42"
 static char gpio_path[75];
 int gpio_init(char *name)
 {
