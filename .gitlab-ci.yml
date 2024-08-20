@@ -2,9 +2,9 @@ variables:
   #打包格式
   FORMAT: tar.gz
   #打包所用的分支或者标签：origin/master表示打包主分支，
-  Branch_or_Tag: origin/master
+  Branch_or_Tag: origin/main
   #生成tar的名称
-  TAR_NAME: lubancat_sg2000_code_storage
+  TAR_NAME: lubancat_sg2000_code_storage_
   #NAS地址 数量不匹配需要删改PDF-files任务中的内容
   NAS_URL1: /mnt/百度云对外发布资料/Linux产品线/鲁班猫_算能系列/1-野火开源图书_教程文档/配套代码
   #NAS_URL2: 
