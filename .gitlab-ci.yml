@@ -6,7 +6,7 @@ variables:
   #生成zip的名称
   ZIP_NAME: lubancat_sg2000_code_storage_
   #NAS地址 
-  NAS_URL1: /mnt/百度云对外发布资料/Linux产品线/鲁班猫_算能系列/1-野火开源图书_教程文档/配套代码
+  NAS_URL1: /mnt/百度云对外发布资料/Linux产品线/鲁班猫_算能系列/1-野火开源图书_教程文档/配套代码/综合代码
 
 
 
